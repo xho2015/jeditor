@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<definition name="html" caseSensitive="false">
+	<comment color="#52,81,95"><![CDATA[<!--]]></comment>
+	<background color="#34,40,42"></background>
+	<foreground color="#204,206,209"></foreground>
+	<attribKey color="#133,217,30"></attribKey>
+	<attribValue color="#225,211,89"></attribValue>
+
+	<sword color="#210,0,0"><![CDATA[<!DOCTYPE html>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<html>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</html>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<body>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</body>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<head>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</head>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<title>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</title>]]></sword>
+	<sword color="#130,199,99"><![CDATA[<style>]]></sword>
+	<sword color="#130,199,99"><![CDATA[</style>]]></sword>
+	<sword color="ROYALBLUE"><![CDATA[<script>]]></sword>
+	<sword color="ROYALBLUE"><![CDATA[</script>]]></sword>
+	
+	<sword color="#210,0,0"><![CDATA[<a>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</a>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<p>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</p>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<h1>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</h1>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<h2>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</h2>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<h3>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</h3>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<div>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</div>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<li>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</li>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<ul>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</ul>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<table>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</table>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<tr>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</tr>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<th>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</th>]]></sword>
+	<sword color="#210,0,0"><![CDATA[<td>]]></sword>
+	<sword color="#210,0,0"><![CDATA[</td>]]></sword>
+	
+	<fword color="ROYALBLUE"><![CDATA[<script *>]]></fword>
+	<fword color="#130,199,99"><![CDATA[<style *>]]></fword>
+	<fword color="#210,0,0"><![CDATA[<body *>]]></fword>
+	<fword color="#210,0,0"><![CDATA[<a *>]]></fword>
+	<fword color="#210,0,0"><![CDATA[<p *>]]></fword>
+	<fword color="#210,0,0"><![CDATA[<h1 *>]]></fword>
+	<fword color="#210,0,0"><![CDATA[<div *>]]></fword>
+	<fword color="#210,0,0"><![CDATA[<ul *>]]></fword>
+	<fword color="#210,0,0"><![CDATA[<table *>]]></fword>
+	<fword color="#210,0,0"><![CDATA[<tr *>]]></fword>
+	<fword color="#210,0,0"><![CDATA[<td *>]]></fword>
+	<fword color="#210,0,0"><![CDATA[<th *>]]></fword>
+
+</definition>

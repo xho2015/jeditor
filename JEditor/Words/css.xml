@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<definition name="css" caseSensitive="false">
+	<comment color="#52,81,95">/**/</comment>
+	<background color="#34,40,42"></background>
+	<foreground color="#204,206,209"></foreground>
+	<attribKey color="#133,217,30"></attribKey>
+	<attribValue color="#225,211,89"></attribValue>
+
+	<sword color="#130,199,99">background</sword>
+	<sword color="#130,199,99">width</sword>
+	<sword color="#130,199,99">border</sword>
+	<sword color="#130,199,99">background-color</sword>	
+	<sword color="#130,199,99">div</sword>
+	<sword color="#130,199,99">box-sizing</sword>
+</definition>
