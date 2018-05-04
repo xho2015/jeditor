@@ -7,6 +7,7 @@ this control demonstrated how to implementing below features.
 3. color schema configuration in xml file
 4. Trie Dictionary for full keyword matching and fuzzy matching
 
+BTW, this project is designed by SharpDeveloper, if you're working with Visual Studio, please do some project manual conversion. 
 
 This control can be freely used for any purpose, and hope you can extends more amazing features.
 
