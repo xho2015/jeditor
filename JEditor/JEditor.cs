@@ -60,6 +60,7 @@ namespace NGO.Pad.JEditor
              string onStr = lineStr.Substring(0, column);
               int i = onStr.LastIndexOf(' ');
               i = i<0 ? onStr.LastIndexOf('\t') : i;
+              i = i<0 ? onStr.LastIndexOf('>') : i;
               i = i<0 ? 0 : i;
               //1. get candidate word
              string lastWord = string.Empty;
@@ -104,9 +105,7 @@ namespace NGO.Pad.JEditor
         	int selectStart = base.SelectionStart; 
         	for(int line = 0; line <base.Lines.Length ; line++) {
         		string lineStr = base.Lines[line];  
-                int lineStart = 0;  
-                for (int i = 0; i < line; i++)  
-                    lineStart += base.Lines[i].Length + 1;  
+                int lineStart = base.GetFirstCharIndexFromLine(line);  
   
                 SendMessage(base.Handle, WM_SETREDRAW, 0, IntPtr.Zero);  
   
@@ -149,9 +148,7 @@ namespace NGO.Pad.JEditor
                 int selectStart = base.SelectionStart;  
                 line = base.GetLineFromCharIndex(selectStart);  
                 string lineStr = base.Lines[line];  
-                int lineStart = 0;  
-                for (int i = 0; i < line; i++)  
-                    lineStart += base.Lines[i].Length + 1;  
+                int lineStart = base.GetFirstCharIndexFromLine(line);  
   
                 SendMessage(base.Handle, WM_SETREDRAW, 0, IntPtr.Zero);  
   
